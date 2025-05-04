@@ -1,0 +1,32 @@
+************* Module gobbletfinal
+
+------------------------------------
+Your code has been rated at 10.00/10
+
+
+************* Module game_dimensions_final
+
+------------------------------------
+Your code has been rated at 10.00/10
+
+
+************* Module game_logic_final
+
+game_logic_final.py:67:30: W0612: Unused variable 'piece' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 9.87/10 (previous run: 9.61/10, +0.26)
+
+
+************* Module game_handling_final
+game_handling_final.py:138:0: C0301: Line too long (101/100) (line-too-long)
+game_handling_final.py:188:0: C0301: Line too long (101/100) (line-too-long)
+game_handling_final.py:123:12: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+game_handling_final.py:134:12: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+game_handling_final.py:200:16: C0103: Variable name "Event" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 9.69/10 (previous run: 9.69/10, +0.00)
+
+
+

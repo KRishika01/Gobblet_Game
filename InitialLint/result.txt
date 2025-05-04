@@ -1,0 +1,84 @@
+************* Module gobblet
+gobblet.py:10:0: W0401: Wildcard import game_dimensions (wildcard-import)
+gobblet.py:17:4: E1101: Module 'pygame' has no 'init' member (no-member)
+gobblet.py:18:4: C0103: Variable name "OriginalGame" doesn't conform to snake_case naming style (invalid-name)
+gobblet.py:7:0: C0411: standard import "sys" should be placed before third party import "pygame" (wrong-import-order)
+gobblet.py:7:0: W0611: Unused import sys (unused-import)
+gobblet.py:9:0: W0611: Unused GobbletGameLogic imported from game_logic (unused-import)
+gobblet.py:10:0: W0614: Unused import(s) Width, Height, Size_of_Board, Size_of_Cell, Board_X, Board_Y, Size_of_pieces, Num_pieces_per_size, White, Black, Brown, Red, Blue, Green, Players and Enum from wildcard import of game_dimensions (unused-wildcard-import)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 
+
+
+
+************* Module game_dimensions
+game_dimensions.py:4:0: C0103: Constant name "Width" doesn't conform to UPPER_CASE naming style (invalid-name)
+game_dimensions.py:5:0: C0103: Constant name "Height" doesn't conform to UPPER_CASE naming style (invalid-name)
+game_dimensions.py:6:0: C0103: Constant name "Size_of_Board" doesn't conform to UPPER_CASE naming style (invalid-name)
+game_dimensions.py:7:0: C0103: Constant name "Size_of_Cell" doesn't conform to UPPER_CASE naming style (invalid-name)
+game_dimensions.py:8:0: C0103: Constant name "Board_X" doesn't conform to UPPER_CASE naming style (invalid-name)
+game_dimensions.py:9:0: C0103: Constant name "Board_Y" doesn't conform to UPPER_CASE naming style (invalid-name)
+game_dimensions.py:11:0: C0103: Constant name "Num_pieces_per_size" doesn't conform to UPPER_CASE naming style (invalid-name)
+game_dimensions.py:22:4: C0103: Class constant name "Red" doesn't conform to UPPER_CASE naming style (invalid-name)
+game_dimensions.py:23:4: C0103: Class constant name "Blue" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 
+
+
+
+
+************* Module game_logic
+game_logic.py:26:0: C0303: Trailing whitespace (trailing-whitespace)
+game_logic.py:37:45: C0303: Trailing whitespace (trailing-whitespace)
+game_logic.py:68:30: W0612: Unused variable 'piece' (unused-variable)
+game_logic.py:6:0: C0411: standard import "typing.List" should be placed before first party import "game_dimensions.Size_of_Board"  (wrong-import-order)
+game_logic.py:5:0: W0611: Unused Size_of_Cell imported from game_dimensions (unused-import)
+game_logic.py:6:0: W0611: Unused Union imported from typing (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 9.22/10 
+
+
+
+************* Module game_handling
+game_handling.py:49:0: C0301: Line too long (101/100) (line-too-long)
+game_handling.py:50:0: C0301: Line too long (103/100) (line-too-long)
+game_handling.py:56:0: C0301: Line too long (103/100) (line-too-long)
+game_handling.py:116:0: C0301: Line too long (103/100) (line-too-long)
+game_handling.py:127:0: C0301: Line too long (104/100) (line-too-long)
+game_handling.py:166:0: C0301: Line too long (101/100) (line-too-long)
+game_handling.py:9:0: W0401: Wildcard import game_logic (wildcard-import)
+game_handling.py:10:0: W0401: Wildcard import game_dimensions (wildcard-import)
+game_handling.py:44:4: C0116: Missing function or method docstring (missing-function-docstring)
+game_handling.py:46:8: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+game_handling.py:52:8: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+game_handling.py:57:4: C0116: Missing function or method docstring (missing-function-docstring)
+game_handling.py:83:4: C0116: Missing function or method docstring (missing-function-docstring)
+game_handling.py:86:26: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+game_handling.py:88:26: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+game_handling.py:94:30: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+game_handling.py:96:30: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+game_handling.py:106:4: C0116: Missing function or method docstring (missing-function-docstring)
+game_handling.py:112:12: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+game_handling.py:123:12: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+game_handling.py:133:4: C0116: Missing function or method docstring (missing-function-docstring)
+game_handling.py:135:11: R1716: Simplify chained comparison between the operands (chained-comparison)
+game_handling.py:137:11: R1716: Simplify chained comparison between the operands (chained-comparison)
+game_handling.py:142:4: C0116: Missing function or method docstring (missing-function-docstring)
+game_handling.py:178:16: C0103: Variable name "Event" doesn't conform to snake_case naming style (invalid-name)
+game_handling.py:179:33: E1101: Module 'pygame' has no 'QUIT' member (no-member)
+game_handling.py:181:35: E1101: Module 'pygame' has no 'MOUSEBUTTONDOWN' member (no-member)
+game_handling.py:184:35: E1101: Module 'pygame' has no 'KEYDOWN' member (no-member)
+game_handling.py:185:36: E1101: Module 'pygame' has no 'K_r' member (no-member)
+game_handling.py:193:8: E1101: Module 'pygame' has no 'quit' member (no-member)
+game_handling.py:7:0: C0411: standard import "sys" should be placed before third party import "pygame" (wrong-import-order)
+game_handling.py:8:0: C0411: standard import "math" should be placed before third party import "pygame" (wrong-import-order)
+game_handling.py:11:0: C0411: standard import "typing.Optional" should be placed before third party import "pygame" and first party imports "game_logic.*", "game_dimensions.*"  (wrong-import-order)
+game_handling.py:9:0: W0614: Unused import(s) Num_pieces_per_size, List, Tuple, Optional and Union from wildcard import of game_logic (unused-wildcard-import)
+game_handling.py:10:0: W0614: Unused import(s) Brown and Enum from wildcard import of game_dimensions (unused-wildcard-import)
+
+------------------------------------------------------------------
+Your code has been rated at 6.56/10 
+

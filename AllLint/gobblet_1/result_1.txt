@@ -1,0 +1,46 @@
+************* Module gobblet_1
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 0.00/10, +10.00)
+
+************* Module game_dimensions_1
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 5.00/10, +5.00)
+
+
+************* Module game_logic_1
+game_logic_1.py:26:0: C0303: Trailing whitespace (trailing-whitespace)
+game_logic_1.py:37:45: C0303: Trailing whitespace (trailing-whitespace)
+game_logic_1.py:68:30: W0612: Unused variable 'piece' (unused-variable)
+game_logic_1.py:5:0: W0611: Unused Union imported from typing (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 9.48/10 (previous run: 9.88/10, -0.40)
+
+
+
+************* Module game_handling_1
+game_handling_1.py:146:0: C0301: Line too long (101/100) (line-too-long)
+game_handling_1.py:200:0: C0301: Line too long (101/100) (line-too-long)
+game_handling_1.py:9:0: W0401: Wildcard import game_logic_1 (wildcard-import)
+game_handling_1.py:10:0: W0401: Wildcard import game_dimensions_1 (wildcard-import)
+game_handling_1.py:49:8: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+game_handling_1.py:55:8: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+game_handling_1.py:95:26: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+game_handling_1.py:97:26: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+game_handling_1.py:103:30: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+game_handling_1.py:105:30: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+game_handling_1.py:131:12: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+game_handling_1.py:142:12: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+game_handling_1.py:163:11: R1716: Simplify chained comparison between the operands (chained-comparison)
+game_handling_1.py:165:11: R1716: Simplify chained comparison between the operands (chained-comparison)
+game_handling_1.py:212:16: C0103: Variable name "Event" doesn't conform to snake_case naming style (invalid-name)
+game_handling_1.py:7:0: C0411: standard import "sys" should be placed before third party import "pygame" (wrong-import-order)
+game_handling_1.py:8:0: C0411: standard import "math" should be placed before third party import "pygame" (wrong-import-order)
+game_handling_1.py:11:0: C0411: standard import "typing.Optional" should be placed before third party import "pygame" and first party imports "game_logic_1.*", "game_dimensions_1.*"  (wrong-import-order)
+game_handling_1.py:9:0: W0614: Unused import(s) List, Tuple, Optional, Union and NUM_PIECES_SIZE from wildcard import of game_logic_1 (unused-wildcard-import)
+game_handling_1.py:10:0: W0614: Unused import(s) BROWN and Enum from wildcard import of game_dimensions_1 (unused-wildcard-import)
+
+------------------------------------------------------------------
+Your code has been rated at 8.75/10 (previous run: 6.81/10, +1.94)

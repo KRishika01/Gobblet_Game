@@ -1,0 +1,34 @@
+************* Module gobblet_2
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 0.00/10, +10.00)
+
+************* Module game_dimensions_2
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 5.00/10, +5.00)
+
+
+
+************* Module game_logic_2
+game_logic_2.py:67:31: W0612: Unused variable 'piece' (unused-variable)
+
+-------------------------------------------------------------------
+Your code has been rated at 9.87/10 (previous run: 9.87/10, 0.00)
+
+
+
+************* Module game_handling_2
+game_handling_2.py:10:0: C0301: Line too long (120/100) (line-too-long)
+game_handling_2.py:136:0: C0301: Line too long (101/100) (line-too-long)
+game_handling_2.py:185:0: C0301: Line too long (101/100) (line-too-long)
+game_handling_2.py:115:4: C0116: Missing function or method docstring (missing-function-docstring)
+game_handling_2.py:121:12: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+game_handling_2.py:132:12: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+game_handling_2.py:161:4: C0116: Missing function or method docstring (missing-function-docstring)
+game_handling_2.py:197:16: C0103: Variable name "Event" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 9.50/10 (previous run: 8.24/10, +1.26)
+
+ 
